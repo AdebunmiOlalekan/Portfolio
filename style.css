@@ -296,6 +296,9 @@ img{
     height: 50px;
 }
 @media (max-width:780px){
+    #maincontainer{
+        height: 230vh;
+    }
     nav{
         height: 4vh;
         position: fixed;
@@ -345,9 +348,8 @@ img{
         color: #FCA311;
     }
     #container{
-        height: 260px;
+        height: 280px;
         width: 100vw;
-        /* background-color: yellow; */
     }
     #robot{
         height: 160px;
@@ -459,11 +461,11 @@ img{
     }
     #contactcontainer{
         background-color: #3d1061;
-        background-color: red;
+        /* background-color: red; */
         height: 200px;
-        width: 90%;
-        left: 0%;
-        top: 40%;
+        width: 95%;
+        left: 4%;
+        top: 37%;
     
     }
     #contact{
@@ -472,22 +474,16 @@ img{
     #description{
         font-size: 15px;
         line-height: 19px;
-    
+        padding-left: 10px;
     }
     #linked{
-        height: 50px;
-        width: 90%;
-        border-radius: 15px;
-        background-color: white;
-        position: absolute;
+        height: 40px;
         left: 4%;
-        top: 70%;
-        justify-content: space-between;
-        display: flex;
-        flex-direction: row;
+        top: 74%;
+
     }
     img{
-        height: 50px;
+        height: 38px;
     }
     
 }
