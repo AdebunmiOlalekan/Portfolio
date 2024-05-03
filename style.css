@@ -120,6 +120,11 @@ button{
     text-align: center;
     color: #FCA311;
 }
+#aboutheader{
+    font-size: 40px; 
+    font-family: cursive; 
+    font-weight: bold;;
+}
 #imageofknow{
     height: 350px;
     width: 35vw;
@@ -137,6 +142,15 @@ button{
     /* background-color: red; */
     position: relative;
     top: 19%;
+}
+#skillheader{
+    background-color: #3d1061;
+     height: 60px; 
+    padding-top: 17px; 
+    color: white; 
+    text-align: center; 
+    font-family:  cursive; 
+    font-size: 25px;
 }
 #web{
     font-size: 25px;
@@ -227,7 +241,7 @@ button{
 #doneproject{
     height: 200px;
     width: 200px;
-    background-color: red;
+    border: 2px solid red;
     margin: auto;
 }
 footer{
@@ -367,4 +381,113 @@ img{
         padding-left: 0%;
         color:  white;
     }
+    #about{
+        height: 250px;
+        top: 35%;
+    }
+    #knowme{
+        height: 200px;
+        width: 50vw;
+        top: 3%;
+        left: 7%;
+        font-size: 10px;
+        padding-top: 3px;
+    }
+    #aboutheader{
+        font-size: 20px;
+    }
+    #imageofknow{
+        height: 150px;
+        width: 150px;
+        top: 10%;
+        left: 58%;
+        background: url(images/webd.webp);
+        background-size: cover;
+    }
+    #skill{
+        height: 300px;
+        width: 100vw;
+        background-color: #3f2952;
+        position: relative;
+        top: 7%;
+    }
+    #web{
+        font-size: 12px;
+        width: 370px;
+        padding-left: 6px;
+        padding-top: 4px;
+        color: #FCA311;
+    }
+    #skills{
+        top: 170px;
+        left: 20px;
+        width: 90%;
+        height: 44%;
+    }
+    #skillimage1,#skillimage2, #skillimage3, #skillimage4,
+     #skillimage5, #skillimage6,#skillimage7
+    ,#skillimage8{
+        height: 20px;
+        width: 40px;
+    }
+    #skillheader{
+         height: 30px; 
+        padding-top: 7px; 
+        color: white; 
+        text-align: center; 
+        font-family:  cursive; 
+        font-size: 15px;
+    }
+    #project{
+        height: 350px;
+        top: 8%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #doneproject{
+        height: 100px;
+        width: 100px;
+    }
+    footer{
+        height: 350px;
+        top: 9%;
+    }
+    #myimg{
+        height: 100px;
+        width: 100px;
+        left: 150px;
+        top: 16px;
+    }
+    #contactcontainer{
+        background-color: #3d1061;
+        background-color: red;
+        height: 200px;
+        width: 90%;
+        left: 0%;
+        top: 40%;
+    
+    }
+    #contact{
+        font-size: 20px;
+    }
+    #description{
+        font-size: 15px;
+        line-height: 19px;
+    
+    }
+    #linked{
+        height: 50px;
+        width: 90%;
+        border-radius: 15px;
+        background-color: white;
+        position: absolute;
+        left: 4%;
+        top: 70%;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+    }
+    img{
+        height: 50px;
+    }
+    
 }
