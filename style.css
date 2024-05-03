@@ -6,24 +6,20 @@
 #maincontainer{
     height: 400vh;
     width: 100vw;
-    background-color: black;
+    background-color: #3d1061;
     scroll-behavior: smooth;
 }
 nav{
     height: 8vh;
     width: 100vw;
-    /* background-color: black; */
-    /* position: absolute; */
     top: 10px;
     position: fixed;
     z-index: 1;
-    /* border: 2px solid red; */
 }
 #logo{
     height: 10vh;
     position: absolute;
     left: 3%;
-
 }
 ul{
     height: 49px;
@@ -31,25 +27,21 @@ ul{
     position: absolute;
     top: 2px;
     left: 35%;
-    /* background-color: green; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     list-style: none;
     border-radius: 10px;
-    /* border-bottom: 2px solid green;
-    border-top: 2px solid green; */
 }
 li{
     height: 40px;
-    /* background-color: black; */
-    font-family: arial;
+    font-family: calibri;
     font-size: 17px;
-    font-weight: 600;
-    color: blue;
+    font-weight: 500;
+    color: white;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 6px;
     cursor: pointer;
     border-top: 2px solid green;
     border-bottom: 2px solid green;
@@ -58,8 +50,6 @@ li{
 li:hover{
     border-bottom: 4px solid blue;
     height: 45px;
-    /* background-color: darkblue; */
-
 }
 #container{
     height: 550px;
@@ -84,18 +74,23 @@ li:hover{
     font-family: calibri;
     font-size: 4rem;
     font-weight: bold;
-    color: white;
-    /* border: 2px solid blue; */
+    color: #FCA311;
     padding-top: 20px;
+}
+#details{
+    font-size: 40px; 
+    font-family: calibri; 
+    font-weight: 600; 
+    padding-left: 14%;
+    color:  white;
 }
 button{
     height: 45px;
     width: 150px;
     border-radius: 20px;
-    border: none;
-    background-color: teal;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 16px;
+    border: 2px solid #FCA311;
+   background-color: #3d1061;
+    font-size: 14px;
     font-weight: bold;
     color: #FCA311;
     position: absolute;
@@ -106,9 +101,9 @@ button{
 #about{
     height: 450px;
     width: 100vw;
+    background-color: #3f2952;
     display: flex;
     flex-direction: row;
-    /* background-color: blue; */
     position: absolute;
     top: 100%;
 }
@@ -123,7 +118,7 @@ button{
     font-size: 1.5rem;
     padding-top: 10px;
     text-align: center;
-    color: white;
+    color: #FCA311;
 }
 #imageofknow{
     height: 350px;
@@ -138,30 +133,26 @@ button{
 #skill{
     height: 450px;
     width: 100vw;
-    /* background-color: black; */
+    background-color: #3f2952;
     /* background-color: red; */
     position: relative;
     top: 19%;
-    color: blue;
 }
 #web{
     font-size: 25px;
     font-family: calibri;
     width: 640px;
-    /* color: darkblue; */
     color: white;
     padding-left: 30px;
     padding-top: 30px;
 }
 #skills{
-    /* justify-content: space-between; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     position: absolute;
     top: 80px;
     left: 680px;
     width: 47%;
-    /* background-color: yellow; */
     height: 80%;
     gap: 30px;
 }
@@ -189,25 +180,32 @@ button{
 #skillimage4{
     height: 100px;
     width: 200px;
-    background: url(images/github.png);
+    background: url(images/Taiwindcss.png) ;
     background-repeat: no-repeat;
     background-size: contain;
 }
 #skillimage5{
     height: 100px;
     width: 200px;
-    background: url(images/JavaScript.jpeg);
+    background: url(images/github.png) ;
     background-repeat: no-repeat;
     background-size: contain;
 }
 #skillimage6{
     height: 100px;
     width: 200px;
-    background: url(images/React.jpeg);
+    background: url(images/JavaScript.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 #skillimage7{
+    height: 100px;
+    width: 200px;
+    background: url(images/React.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#skillimage8{
     height: 100px;
     width: 200px;
     background: url(images/Node_js.jpeg);
@@ -217,22 +215,27 @@ button{
 #project{
     height: 450px;
     width: 100vw;
-    background-color: yellow;
+    background-color:  #3f2952;
     position: relative;
     top: 20%;
+    justify-content: space-around;
+    align-items: start;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+#doneproject{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: auto;
 }
 footer{
     height: 450px;
     width: 100vw;
-    /* background-color: red; */
+    background-color: #3f2952;
     position: relative;
     top: 21%;
-}
-#circle{
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-    border: 2px solid black;
 }
 #myimg{
     height: 400px;
@@ -242,7 +245,7 @@ footer{
     top: 20px;
 }
 #contactcontainer{
-    background-color: black;
+    background-color: #3d1061;
     height: 400px;
     width: 45%;
     position: absolute;
@@ -252,12 +255,12 @@ footer{
 }
 #contact{
     font-size: 40px;
-    color: blue;
+    color: white;
     font-family: calibri;
     text-align: center;
 }
 #description{
-    color: blue;
+    color: #FCA311;
     font-size: 25px;
     font-family: calibri;
     line-height: 30px;
@@ -277,4 +280,91 @@ footer{
 }
 img{
     height: 50px;
+}
+@media (max-width:780px){
+    nav{
+        height: 4vh;
+        position: fixed;
+        z-index: 1;
+    }
+    #logo{
+        height: 4vh;
+        position: absolute;
+        left: 3%;
+    }
+    ul{
+        height: 29px;
+        width: 270px;
+        top: 2px;
+        left: 18%;
+        gap: 5px;
+        border-radius: 10px;
+    }
+    li{
+        height: 29px;
+        font-family: calibri;
+        font-size: 12px;
+        font-weight: 600;
+        color: white;
+        text-align: center;
+        padding-top: 5px;
+        cursor: pointer;
+        border-top: none ;
+        border-radius: 10px;
+    }
+    #list1{
+        height: 29px;
+        width: auto;
+    }
+    #list2{
+        height: 29px;
+        width: auto;
+    }
+    #list3{
+        height: 29px;
+        width: auto;
+    }
+
+    li:hover{
+        border-bottom: 2px solid blue;
+        height: 29px;
+        color: #FCA311;
+    }
+    #container{
+        height: 260px;
+        width: 100vw;
+        /* background-color: yellow; */
+    }
+    #robot{
+        height: 160px;
+        width: 160px;
+        top: 8%;
+        left: 3%;
+    }
+    #welcome{
+        height: 200px;
+        width: 230px;
+        top: 8%;
+        left: 38%;
+        font-size: 19px;
+        font-weight: bold;
+        color: #FCA311;
+        padding-top: 20px;
+    }
+    #walving{
+        width: 15px;
+        height: 15px;
+    }
+    button{
+        height: 25px;
+        width: 150px;
+        font-size: 14px;
+        left: 10%;
+        top:49%;
+    } 
+    #details{
+        font-size: 20px; 
+        padding-left: 0%;
+        color:  white;
+    }
 }
