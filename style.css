@@ -39,13 +39,34 @@ li{
     font-family: calibri;
     font-size: 17px;
     font-weight: 500;
+    cursor: pointer;
     color: white;
     text-align: center;
-    padding-top: 6px;
-    cursor: pointer;
+    padding-top: 2px;
     border-top: 2px solid green;
     border-bottom: 2px solid green;
     border-radius: 10px;
+}
+#list1{
+    height: 29px;
+    width: 70px;
+    
+}
+#list2{
+    height: 29px;
+    width:80px;
+}
+#list3{
+    height: 29px;
+    width: 110px;
+}
+#list4{
+    height: 29px;
+    width: 80px;
+}
+#list5{
+    height: 29px;
+    width: 110px;
 }
 li:hover{
     border-bottom: 4px solid blue;
@@ -295,9 +316,10 @@ footer{
 img{
     height: 50px;
 }
-@media (max-width:780px){
+@media(min-width:320px) and
+(max-width:780px){
     #maincontainer{
-        height: 230vh;
+        height: 300vh;
     }
     nav{
         height: 4vh;
@@ -313,7 +335,7 @@ img{
         height: 29px;
         width: 270px;
         top: 2px;
-        left: 18%;
+        left: 19%;
         gap: 5px;
         border-radius: 10px;
     }
@@ -330,38 +352,42 @@ img{
         border-radius: 10px;
     }
     #list1{
-        height: 29px;
-        width: auto;
+        width: 70px;
+        
     }
     #list2{
-        height: 29px;
-        width: auto;
+        width:70px;
     }
     #list3{
-        height: 29px;
-        width: auto;
+        width: 110px;
     }
-
+    #list4{
+        width: 100px;
+    }
+    #list5{
+        width: 110px;
+    }
     li:hover{
         border-bottom: 2px solid blue;
         height: 29px;
         color: #FCA311;
     }
     #container{
-        height: 280px;
+        height: 500px;
         width: 100vw;
+        top: 20%;
     }
     #robot{
-        height: 160px;
-        width: 160px;
-        top: 8%;
-        left: 3%;
+        height: 180px;
+        width: 180px;
+        top: 22%;
+        left: 0%;
     }
     #welcome{
         height: 200px;
         width: 230px;
-        top: 8%;
-        left: 38%;
+        top: 28%;
+        left: 41%;
         font-size: 19px;
         font-weight: bold;
         color: #FCA311;
@@ -385,7 +411,7 @@ img{
     }
     #about{
         height: 250px;
-        top: 35%;
+        top: 77%;
     }
     #knowme{
         height: 200px;
@@ -407,11 +433,11 @@ img{
         background-size: cover;
     }
     #skill{
-        height: 300px;
+        height: 320px;
         width: 100vw;
         background-color: #3f2952;
         position: relative;
-        top: 7%;
+        top: 14%;
     }
     #web{
         font-size: 12px;
@@ -434,7 +460,7 @@ img{
     }
     #skillheader{
          height: 30px; 
-        padding-top: 7px; 
+        padding-top: 2px; 
         color: white; 
         text-align: center; 
         font-family:  cursive; 
@@ -442,7 +468,7 @@ img{
     }
     #project{
         height: 350px;
-        top: 8%;
+        top: 16%;
         grid-template-columns: repeat(3, 1fr);
     }
     #doneproject{
@@ -451,7 +477,7 @@ img{
     }
     footer{
         height: 350px;
-        top: 9%;
+        top: 18%;
     }
     #myimg{
         height: 100px;
