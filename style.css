@@ -79,7 +79,6 @@ li:hover{
 #robot{
     height: 370px;
     width: 370px;
-    /* border: 2px solid red; */
     position: absolute;
     top: 20%;
     left: 4%;
@@ -131,7 +130,6 @@ button{
 #knowme{
     height: 350px;
     width: 50vw;
-    /* background-color: yellow; */
     position: absolute;
     top: 10%;
     left: 7%;
@@ -160,7 +158,6 @@ button{
     height: 450px;
     width: 100vw;
     background-color: #3f2952;
-    /* background-color: red; */
     position: relative;
     top: 19%;
 }
@@ -316,10 +313,10 @@ footer{
 img{
     height: 50px;
 }
-@media(min-width:320px) and
-(max-width:780px){
+@media(min-width:360px) and
+(max-width:768px){
     #maincontainer{
-        height: 300vh;
+        height: 295vh;
     }
     nav{
         height: 4vh;
@@ -329,12 +326,13 @@ img{
     #logo{
         height: 4vh;
         position: absolute;
-        left: 3%;
+        left: 5%;
+        top: 10px;
     }
     ul{
         height: 29px;
         width: 270px;
-        top: 2px;
+        top: 7px;
         left: 19%;
         gap: 5px;
         border-radius: 10px;
@@ -359,13 +357,13 @@ img{
         width:70px;
     }
     #list3{
-        width: 110px;
+        width: 150px;
     }
     #list4{
         width: 100px;
     }
     #list5{
-        width: 110px;
+        width: 150px;
     }
     li:hover{
         border-bottom: 2px solid blue;
@@ -402,7 +400,7 @@ img{
         width: 150px;
         font-size: 14px;
         left: 10%;
-        top:49%;
+        top:53%;
     } 
     #details{
         font-size: 20px; 
@@ -411,15 +409,16 @@ img{
     }
     #about{
         height: 250px;
-        top: 77%;
+        top: 81%;
     }
     #knowme{
         height: 200px;
         width: 50vw;
         top: 3%;
         left: 7%;
-        font-size: 10px;
+        font-size: 13px;
         padding-top: 3px;
+        font-family: calibri;
     }
     #aboutheader{
         font-size: 20px;
@@ -433,37 +432,38 @@ img{
         background-size: cover;
     }
     #skill{
-        height: 320px;
+        height: 390px;
         width: 100vw;
         background-color: #3f2952;
         position: relative;
         top: 14%;
     }
     #web{
-        font-size: 12px;
+        font-size: 13px;
         width: 370px;
         padding-left: 6px;
         padding-top: 4px;
         color: #FCA311;
     }
     #skills{
-        top: 170px;
+        top: 210px;
         left: 20px;
         width: 90%;
-        height: 44%;
+        height: 48%;
     }
     #skillimage1,#skillimage2, #skillimage3, #skillimage4,
      #skillimage5, #skillimage6,#skillimage7
     ,#skillimage8{
-        height: 20px;
+        height: 40px;
         width: 40px;
     }
     #skillheader{
          height: 30px; 
-        padding-top: 2px; 
+        padding-top: 5px; 
         color: white; 
+        font-weight: bolder;
         text-align: center; 
-        font-family:  cursive; 
+        font-family:  calibri; 
         font-size: 15px;
     }
     #project{
@@ -476,8 +476,8 @@ img{
         width: 100px;
     }
     footer{
-        height: 350px;
-        top: 18%;
+        height: 370px;
+        top: 17%;
     }
     #myimg{
         height: 100px;
@@ -487,12 +487,10 @@ img{
     }
     #contactcontainer{
         background-color: #3d1061;
-        /* background-color: red; */
-        height: 200px;
+        height: 220px;
         width: 95%;
-        left: 4%;
+        left: 3%;
         top: 37%;
-    
     }
     #contact{
         font-size: 20px;
